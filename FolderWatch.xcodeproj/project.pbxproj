@@ -1,0 +1,468 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9BB242DD14604A1500FA4D61 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BB242DC14604A1500FA4D61 /* Cocoa.framework */; };
+		9BB242E714604A1500FA4D61 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9BB242E514604A1500FA4D61 /* InfoPlist.strings */; };
+		9BB242E914604A1500FA4D61 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BB242E814604A1500FA4D61 /* main.m */; };
+		9BB242ED14604A1500FA4D61 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 9BB242EB14604A1500FA4D61 /* Credits.rtf */; };
+		9BB242F014604A1500FA4D61 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BB242EF14604A1500FA4D61 /* AppDelegate.m */; };
+		9BB242F314604A1500FA4D61 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9BB242F114604A1500FA4D61 /* MainMenu.xib */; };
+		9BB242F614604A1500FA4D61 /* FolderWatch.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9BB242F414604A1500FA4D61 /* FolderWatch.xcdatamodeld */; };
+		9BB242FE14604A1500FA4D61 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BB242FD14604A1500FA4D61 /* SenTestingKit.framework */; };
+		9BB242FF14604A1600FA4D61 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BB242DC14604A1500FA4D61 /* Cocoa.framework */; };
+		9BB2430714604A1600FA4D61 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9BB2430514604A1600FA4D61 /* InfoPlist.strings */; };
+		9BB2430A14604A1600FA4D61 /* FolderWatchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BB2430914604A1600FA4D61 /* FolderWatchTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9BB2430014604A1600FA4D61 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9BB242CF14604A1500FA4D61 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9BB242D714604A1500FA4D61;
+			remoteInfo = FolderWatch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9BB242D814604A1500FA4D61 /* FolderWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FolderWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BB242DC14604A1500FA4D61 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		9BB242DF14604A1500FA4D61 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		9BB242E014604A1500FA4D61 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		9BB242E114604A1500FA4D61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9BB242E414604A1500FA4D61 /* FolderWatch-Info.plist */ = {isa = PBXFileReference; path = "FolderWatch-Info.plist"; sourceTree = "<group>"; };
+		9BB242E614604A1500FA4D61 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9BB242E814604A1500FA4D61 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9BB242EA14604A1500FA4D61 /* FolderWatch-Prefix.pch */ = {isa = PBXFileReference; path = "FolderWatch-Prefix.pch"; sourceTree = "<group>"; };
+		9BB242EC14604A1500FA4D61 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		9BB242EE14604A1500FA4D61 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		9BB242EF14604A1500FA4D61 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9BB242F214604A1500FA4D61 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		9BB242F514604A1500FA4D61 /* FolderWatch.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FolderWatch.xcdatamodel; sourceTree = "<group>"; };
+		9BB242FC14604A1500FA4D61 /* FolderWatchTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FolderWatchTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BB242FD14604A1500FA4D61 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		9BB2430414604A1600FA4D61 /* FolderWatchTests-Info.plist */ = {isa = PBXFileReference; path = "FolderWatchTests-Info.plist"; sourceTree = "<group>"; };
+		9BB2430614604A1600FA4D61 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9BB2430814604A1600FA4D61 /* FolderWatchTests.h */ = {isa = PBXFileReference; path = FolderWatchTests.h; sourceTree = "<group>"; };
+		9BB2430914604A1600FA4D61 /* FolderWatchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FolderWatchTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9BB242D514604A1500FA4D61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BB242DD14604A1500FA4D61 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BB242F814604A1500FA4D61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BB242FE14604A1500FA4D61 /* SenTestingKit.framework in Frameworks */,
+				9BB242FF14604A1600FA4D61 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9BB242CD14604A1500FA4D61 = {
+			isa = PBXGroup;
+			children = (
+				9BB242E214604A1500FA4D61 /* FolderWatch */,
+				9BB2430214604A1600FA4D61 /* FolderWatchTests */,
+				9BB242DB14604A1500FA4D61 /* Frameworks */,
+				9BB242D914604A1500FA4D61 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9BB242D914604A1500FA4D61 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9BB242D814604A1500FA4D61 /* FolderWatch.app */,
+				9BB242FC14604A1500FA4D61 /* FolderWatchTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9BB242DB14604A1500FA4D61 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9BB242DC14604A1500FA4D61 /* Cocoa.framework */,
+				9BB242FD14604A1500FA4D61 /* SenTestingKit.framework */,
+				9BB242DE14604A1500FA4D61 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9BB242DE14604A1500FA4D61 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9BB242DF14604A1500FA4D61 /* AppKit.framework */,
+				9BB242E014604A1500FA4D61 /* CoreData.framework */,
+				9BB242E114604A1500FA4D61 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		9BB242E214604A1500FA4D61 /* FolderWatch */ = {
+			isa = PBXGroup;
+			children = (
+				9BB242EE14604A1500FA4D61 /* AppDelegate.h */,
+				9BB242EF14604A1500FA4D61 /* AppDelegate.m */,
+				9BB242F114604A1500FA4D61 /* MainMenu.xib */,
+				9BB242F414604A1500FA4D61 /* FolderWatch.xcdatamodeld */,
+				9BB242E314604A1500FA4D61 /* Supporting Files */,
+			);
+			path = FolderWatch;
+			sourceTree = "<group>";
+		};
+		9BB242E314604A1500FA4D61 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9BB242E414604A1500FA4D61 /* FolderWatch-Info.plist */,
+				9BB242E514604A1500FA4D61 /* InfoPlist.strings */,
+				9BB242E814604A1500FA4D61 /* main.m */,
+				9BB242EA14604A1500FA4D61 /* FolderWatch-Prefix.pch */,
+				9BB242EB14604A1500FA4D61 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9BB2430214604A1600FA4D61 /* FolderWatchTests */ = {
+			isa = PBXGroup;
+			children = (
+				9BB2430814604A1600FA4D61 /* FolderWatchTests.h */,
+				9BB2430914604A1600FA4D61 /* FolderWatchTests.m */,
+				9BB2430314604A1600FA4D61 /* Supporting Files */,
+			);
+			path = FolderWatchTests;
+			sourceTree = "<group>";
+		};
+		9BB2430314604A1600FA4D61 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9BB2430414604A1600FA4D61 /* FolderWatchTests-Info.plist */,
+				9BB2430514604A1600FA4D61 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9BB242D714604A1500FA4D61 /* FolderWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BB2430D14604A1600FA4D61 /* Build configuration list for PBXNativeTarget "FolderWatch" */;
+			buildPhases = (
+				9BB242D414604A1500FA4D61 /* Sources */,
+				9BB242D514604A1500FA4D61 /* Frameworks */,
+				9BB242D614604A1500FA4D61 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FolderWatch;
+			productName = FolderWatch;
+			productReference = 9BB242D814604A1500FA4D61 /* FolderWatch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9BB242FB14604A1500FA4D61 /* FolderWatchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BB2431014604A1600FA4D61 /* Build configuration list for PBXNativeTarget "FolderWatchTests" */;
+			buildPhases = (
+				9BB242F714604A1500FA4D61 /* Sources */,
+				9BB242F814604A1500FA4D61 /* Frameworks */,
+				9BB242F914604A1500FA4D61 /* Resources */,
+				9BB242FA14604A1500FA4D61 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9BB2430114604A1600FA4D61 /* PBXTargetDependency */,
+			);
+			name = FolderWatchTests;
+			productName = FolderWatchTests;
+			productReference = 9BB242FC14604A1500FA4D61 /* FolderWatchTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9BB242CF14604A1500FA4D61 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Stephen Lynn";
+			};
+			buildConfigurationList = 9BB242D214604A1500FA4D61 /* Build configuration list for PBXProject "FolderWatch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9BB242CD14604A1500FA4D61;
+			productRefGroup = 9BB242D914604A1500FA4D61 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9BB242D714604A1500FA4D61 /* FolderWatch */,
+				9BB242FB14604A1500FA4D61 /* FolderWatchTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9BB242D614604A1500FA4D61 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BB242E714604A1500FA4D61 /* InfoPlist.strings in Resources */,
+				9BB242ED14604A1500FA4D61 /* Credits.rtf in Resources */,
+				9BB242F314604A1500FA4D61 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BB242F914604A1500FA4D61 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BB2430714604A1600FA4D61 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9BB242FA14604A1500FA4D61 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9BB242D414604A1500FA4D61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BB242E914604A1500FA4D61 /* main.m in Sources */,
+				9BB242F014604A1500FA4D61 /* AppDelegate.m in Sources */,
+				9BB242F614604A1500FA4D61 /* FolderWatch.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BB242F714604A1500FA4D61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BB2430A14604A1600FA4D61 /* FolderWatchTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9BB2430114604A1600FA4D61 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9BB242D714604A1500FA4D61 /* FolderWatch */;
+			targetProxy = 9BB2430014604A1600FA4D61 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9BB242E514604A1500FA4D61 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9BB242E614604A1500FA4D61 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9BB242EB14604A1500FA4D61 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9BB242EC14604A1500FA4D61 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		9BB242F114604A1500FA4D61 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9BB242F214604A1500FA4D61 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		9BB2430514604A1600FA4D61 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9BB2430614604A1600FA4D61 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9BB2430B14604A1600FA4D61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		9BB2430C14604A1600FA4D61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		9BB2430E14604A1600FA4D61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FolderWatch/FolderWatch-Prefix.pch";
+				INFOPLIST_FILE = "FolderWatch/FolderWatch-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9BB2430F14604A1600FA4D61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FolderWatch/FolderWatch-Prefix.pch";
+				INFOPLIST_FILE = "FolderWatch/FolderWatch-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		9BB2431114604A1600FA4D61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FolderWatch.app/Contents/MacOS/FolderWatch";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FolderWatch/FolderWatch-Prefix.pch";
+				INFOPLIST_FILE = "FolderWatchTests/FolderWatchTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		9BB2431214604A1600FA4D61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FolderWatch.app/Contents/MacOS/FolderWatch";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FolderWatch/FolderWatch-Prefix.pch";
+				INFOPLIST_FILE = "FolderWatchTests/FolderWatchTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9BB242D214604A1500FA4D61 /* Build configuration list for PBXProject "FolderWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BB2430B14604A1600FA4D61 /* Debug */,
+				9BB2430C14604A1600FA4D61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9BB2430D14604A1600FA4D61 /* Build configuration list for PBXNativeTarget "FolderWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BB2430E14604A1600FA4D61 /* Debug */,
+				9BB2430F14604A1600FA4D61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9BB2431014604A1600FA4D61 /* Build configuration list for PBXNativeTarget "FolderWatchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BB2431114604A1600FA4D61 /* Debug */,
+				9BB2431214604A1600FA4D61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		9BB242F414604A1500FA4D61 /* FolderWatch.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9BB242F514604A1500FA4D61 /* FolderWatch.xcdatamodel */,
+			);
+			currentVersion = 9BB242F514604A1500FA4D61 /* FolderWatch.xcdatamodel */;
+			path = FolderWatch.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 9BB242CF14604A1500FA4D61 /* Project object */;
+}
