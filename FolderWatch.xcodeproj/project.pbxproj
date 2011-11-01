@@ -18,6 +18,8 @@
 		9BB242FF14604A1600FA4D61 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BB242DC14604A1500FA4D61 /* Cocoa.framework */; };
 		9BB2430714604A1600FA4D61 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9BB2430514604A1600FA4D61 /* InfoPlist.strings */; };
 		9BB2430A14604A1600FA4D61 /* FolderWatchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BB2430914604A1600FA4D61 /* FolderWatchTests.m */; };
+		9BB2431814604A8700FA4D61 /* sync.icns in Resources */ = {isa = PBXBuildFile; fileRef = 9BB2431714604A8700FA4D61 /* sync.icns */; };
+		9BB2431B14604AC500FA4D61 /* FolderWatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BB2431A14604AC500FA4D61 /* FolderWatcher.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,21 +38,24 @@
 		9BB242DF14604A1500FA4D61 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		9BB242E014604A1500FA4D61 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		9BB242E114604A1500FA4D61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		9BB242E414604A1500FA4D61 /* FolderWatch-Info.plist */ = {isa = PBXFileReference; path = "FolderWatch-Info.plist"; sourceTree = "<group>"; };
+		9BB242E414604A1500FA4D61 /* FolderWatch-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FolderWatch-Info.plist"; sourceTree = "<group>"; };
 		9BB242E614604A1500FA4D61 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9BB242E814604A1500FA4D61 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		9BB242EA14604A1500FA4D61 /* FolderWatch-Prefix.pch */ = {isa = PBXFileReference; path = "FolderWatch-Prefix.pch"; sourceTree = "<group>"; };
+		9BB242EA14604A1500FA4D61 /* FolderWatch-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FolderWatch-Prefix.pch"; sourceTree = "<group>"; };
 		9BB242EC14604A1500FA4D61 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		9BB242EE14604A1500FA4D61 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		9BB242EE14604A1500FA4D61 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9BB242EF14604A1500FA4D61 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		9BB242F214604A1500FA4D61 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		9BB242F514604A1500FA4D61 /* FolderWatch.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FolderWatch.xcdatamodel; sourceTree = "<group>"; };
 		9BB242FC14604A1500FA4D61 /* FolderWatchTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FolderWatchTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BB242FD14604A1500FA4D61 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		9BB2430414604A1600FA4D61 /* FolderWatchTests-Info.plist */ = {isa = PBXFileReference; path = "FolderWatchTests-Info.plist"; sourceTree = "<group>"; };
+		9BB2430414604A1600FA4D61 /* FolderWatchTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FolderWatchTests-Info.plist"; sourceTree = "<group>"; };
 		9BB2430614604A1600FA4D61 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		9BB2430814604A1600FA4D61 /* FolderWatchTests.h */ = {isa = PBXFileReference; path = FolderWatchTests.h; sourceTree = "<group>"; };
+		9BB2430814604A1600FA4D61 /* FolderWatchTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FolderWatchTests.h; sourceTree = "<group>"; };
 		9BB2430914604A1600FA4D61 /* FolderWatchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FolderWatchTests.m; sourceTree = "<group>"; };
+		9BB2431714604A8700FA4D61 /* sync.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = sync.icns; sourceTree = "<group>"; };
+		9BB2431914604AC500FA4D61 /* FolderWatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FolderWatcher.h; sourceTree = "<group>"; };
+		9BB2431A14604AC500FA4D61 /* FolderWatcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FolderWatcher.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +121,9 @@
 		9BB242E214604A1500FA4D61 /* FolderWatch */ = {
 			isa = PBXGroup;
 			children = (
+				9BB2431714604A8700FA4D61 /* sync.icns */,
+				9BB2431914604AC500FA4D61 /* FolderWatcher.h */,
+				9BB2431A14604AC500FA4D61 /* FolderWatcher.m */,
 				9BB242EE14604A1500FA4D61 /* AppDelegate.h */,
 				9BB242EF14604A1500FA4D61 /* AppDelegate.m */,
 				9BB242F114604A1500FA4D61 /* MainMenu.xib */,
@@ -230,6 +238,7 @@
 				9BB242E714604A1500FA4D61 /* InfoPlist.strings in Resources */,
 				9BB242ED14604A1500FA4D61 /* Credits.rtf in Resources */,
 				9BB242F314604A1500FA4D61 /* MainMenu.xib in Resources */,
+				9BB2431814604A8700FA4D61 /* sync.icns in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,6 +276,7 @@
 				9BB242E914604A1500FA4D61 /* main.m in Sources */,
 				9BB242F014604A1500FA4D61 /* AppDelegate.m in Sources */,
 				9BB242F614604A1500FA4D61 /* FolderWatch.xcdatamodeld in Sources */,
+				9BB2431B14604AC500FA4D61 /* FolderWatcher.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
