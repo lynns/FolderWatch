@@ -1,0 +1,16 @@
+# FolderWatch
+
+FolderWatch is a native Mac OSX App that watches the filesystem for changes and then 
+runs a script of your choosing. Multiple folders can be configured to be watched, 
+each with their own script to be run when changes occur. The original use case for 
+this tool was to allow someone to edit files locally and then have them 
+automatically copied up to a server (via an rsync script) where the changes could be previewed 
+on a website. That said, the tool could be used for anything that requires a 
+script to be run in response to some filesystem change. This tool was developed
+because we couldn't find any readily available equivalent on the interwebs for OS X. 
+If you need something like this on Windows, Winscp will likely serve you well.
+
+# Example Script
+
+An example bash script that uses rsync to move files between boxes is available in 
+the `examples` folder.
